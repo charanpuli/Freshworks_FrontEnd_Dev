@@ -1,0 +1,92 @@
+@font-face{
+    font-family: googlesans;
+    src: url(../fonts/GoogleSans-Bold.ttf)
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #00001a !important;
+    font-family: googlesans !important;
+
+}
+
+   
+.countries{
+    
+    margin-left: 45%;
+    
+    
+}
+input#search-bar
+{
+margin-left:40%;
+border-radius:2px;
+padding:13px;
+border:darkgray;
+}
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50%;
+    cursor: pointer;
+    border-radius: 2px;
+    width:5%;
+}
+.button1 {
+    color:black;
+    background-color: white; 
+    border: 2px solid #A4A4A4;
+}
+.a
+{
+    max-width: 30%;
+    width:30%;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: white;
+}
+.flagimage
+{
+    display:block;
+    margin:auto;
+    width:30%;
+    height:30%;
+}
+.flagimage2
+{
+    display:block;
+    margin:auto;
+    width:10%;
+    height:10%;
+}
+/* table */
+table {
+    height: 200px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  th{
+      color: white;
+  }
+  #country-details{
+      top: 400px;
+  }

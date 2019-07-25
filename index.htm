@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>FreshWorks</title>
+</head>
+<body>
+        <div class = "container">
+                <br>
+                <h3 style="margin-left:41%;"><div style="color:white;font-size: 30px;">Country Details</div></h3><hr>
+                <h3 style="text-align: center;color: aqua;">Filter By :</h3>
+            
+            
+            <div class="countries">
+                    <select type="text" name="countrydetails" id="countrydetails" style="text-align: center; ">
+                            <option value="NAME">NAME</option>
+                            <option value="CODE">CODE</option>
+                            <option value="CURRENCY">CURRENCY</option>
+                            <option value="LANGUAGE">LANGUAGE</option>
+                            <option value="CAPITAL CITY">CAPITAL CITY</option>
+                            <option value="CALLING CODE">CALLING CODE</option>
+                            <option value="REGION">REGION</option>
+                            <option value="REGIONAL BLOC">REGIONAL BLOC</option>
+                        </select>
+                    </div><br><br>
+                <div class = "search">
+                <input id="search-bar" class = "search-bar" placeholder="Filter By Country" type = "text"/>
+                <button class="button button1" class = "search-button" onclick="countrysearch()">Search</button>
+            </div><br>
+            <h3 style="text-align: center"><div style="color:white;font-size: 30px;">Results</div> </h3>
+            <div id = "search-results" class = "search-results">
+            </div>
+            <h3 style="text-align: center;color: aqua;" id="error">No country Found!!</h3>
+        </div>
+    
+</body>
+</html>
